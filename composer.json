@@ -1,0 +1,21 @@
+{
+    "name": "tatocaster/monolog-json-unicode-pretty-formatter",
+    "description": "The extension of JsonFormatter of Monolog, which pretty prints json and supports unicode. Does not escape slashes.",
+    "keywords": ["monolog", "json", "log", "pretty", "unicode", "slashes", "formatter"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Tato Kutalia",
+            "homepage": "https://tatocaster.me"
+        }
+    ],
+    "autoload": {
+        "psr-0": {
+            "Tatocaster\\Monolog\\Formatter\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=5.4.0",
+        "monolog/monolog": "*"
+    }
+}
